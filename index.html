@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <div class="nav1">
+        <div>
+         <img src="spira_img/icon.png" alt="">&nbsp
+        &nbsp<img src="spira_img/icon.png" alt="" id="bar">   
+        </div>
+        <!-- Space between divisions-->
+        <div>
+            <button id="btn1">
+                Create Account 
+            </button>&nbsp
+            <button id="btn2">
+                Login
+            </button>
+        </div>
+    </div>
+    <div class="body">
+         <img src="spira_img/icon.png" alt="">
+         <div class="txt">
+           <h1>
+           Welcome to Adstera, 
+           Trusted and Secured platform for buying Social media accounts 
+           </h1>
+         </div>
+    </div>
+    <div class="sign-up">
+        <div class="container">
+            <div class="head">
+                <h2>Register</h2>
+                <p>create an account and unlock a vast selection of premium social media accounts.</p>
+            </div>
+            <div>
+             <input type="text" id="name" placeholder="Full name">      
+            </div>
+            <br>
+            <div>
+             <input type="number" id="number" placeholder="Phone">      
+            </div>
+            <br>
+            <div>
+             <input type="password" id="password" placeholder="Password">      
+            </div>
+            <br>
+            <div>
+             <input type="text" id="first_name" placeholder="Captcha">      
+            </div>
+            <br>
+         <div class="move">
+               <button id="btn3">
+                Create Account 
+            </button>
+           
+         </div>
+         <div class="lable">
+          <label>Already have an account? <a href="#">Login</a></label>   
+         </div>
+          
+        </div>
+        
+    </div>
+    <div class="login">
+        <div class="container">
+            <div class="head">
+                <h2>Login</h2>
+                <p>Login to your account and explore a world of premium social media accounts.</p>
+            </div>
+ 
+            <br>
+            <div>
+             <input type="number" id="number" placeholder="Phone">      
+            </div>
+            <br>
+            <div>
+             <input type="password" id="password" placeholder="Password">      
+            </div>
+  
+            <br>
+         <div class="move">
+               <button id="btn3">
+                Login
+            </button>
+           
+         </div>
+         <div class="lable">
+          <label>Don't have an account? <a href="#">Create one now</a></label>   
+         </div>
+          
+        </div>
+        
+    </div>
+    <style>
+*{
+    font-family:fantasy;
+}        
+body{
+    background:#F4F5F6;
+    padding:0;
+    margin:0;
+}
+.nav1{
+    display:flex;
+    padding:20px 15px;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav1 img{
+    width:40px;
+    height:40px;
+    border-radius:7px;
+}
+#bar{
+    width:60px;
+    height:20px;
+    margin-bottom:9%;
+}
+#btn1{
+    background:#3772FF;
+    outline: none;
+    border:none;
+    height:40px;
+    width:130px;
+    border-radius:20px;
+    color:white;
+    font-weight:bold;
+}
+#btn2{
+    background:#FFFFFF;
+    outline: none;
+    border:0.3px solid grey;
+    height:40px;
+    width:90px;
+    border-radius:20px;
+    color:black;
+    font-weight:bold;
+}
+
+.body{
+    margin:0 auto;
+    display:block;
+    padding:20px 2px;
+    display:flex;
+    margin-top:12%;
+}
+.body img{
+    width:200px;
+    display:block;
+    
+}
+.txt{
+    margin-left:6%;
+    width:200px;
+}
+h1{
+    font-size:23px;
+}
+.sign-up{
+    width:100%;
+    height:600px;
+    position:fixed;
+    bottom:0;
+    border:0.3px solid black;
+    background:#FFFFFF;
+    
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    padding-top:4%;
+   }
+   
+.container{
+    margin-left:;
+    margin-top:6%;
+}
+
+input{
+    width:350px;
+    height:60px;
+    background:#F4F5F6;
+    border:none;
+    border-radius:19px;
+    outline:none;
+    padding-left:60px;
+    display:block;
+    margin:0 auto;
+    font-weight:bold;
+}
+.input::placeholder{
+    font-weight:bold;
+}
+.move{
+    margin:0 auto;
+    display:block;
+}
+#btn3{
+    background:#5F8EFF;
+    color:white;
+    outline:none;
+    width:300px;
+    height:60px;
+    border-radius:20px;
+    border:none;
+    display:block;
+    margin:0 auto;
+}
+a{
+    text-decoration:none;
+    
+}
+label{
+    
+}
+.lable{
+margin-top:3%;
+display:flex;
+justify-content: center;
+}
+.head{
+    margin-left:6%;
+}
+p{
+    color:grey;
+}
+#first_name{
+    padding-left:200px;
+    width:215px;
+}
+
+.login{
+    position:absolute;
+    background:red;
+    bottom:0;
+    padding-bottom:12%;
+} 
+
+   </style>
+</body>
+</html>
